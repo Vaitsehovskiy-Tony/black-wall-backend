@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_element_main_feachures",
+  "info": {
+    "displayName": "Main feachures",
+    "icon": "bullhorn",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "text": {
+      "type": "richtext"
+    }
+  }
+}

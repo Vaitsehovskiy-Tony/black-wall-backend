@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_block_abouts",
+  "info": {
+    "displayName": "About",
+    "icon": "blind",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "text": {
+      "type": "text"
+    },
+    "sideTitle": {
+      "type": "string"
+    },
+    "sideSubtitle": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_element_about_slides",
+  "info": {
+    "displayName": "About Slide",
+    "icon": "exchange-alt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "sliderImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "sliderDescription": {
+      "type": "string"
+    }
+  }
+}

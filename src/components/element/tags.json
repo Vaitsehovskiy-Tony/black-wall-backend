@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_element_tags",
+  "info": {
+    "displayName": "Tags",
+    "icon": "braille"
+  },
+  "options": {},
+  "attributes": {
+    "Tag": {
+      "type": "string"
+    }
+  }
+}

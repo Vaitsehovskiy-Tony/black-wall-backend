@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_block_recent_projects",
+  "info": {
+    "displayName": "Our Projects",
+    "icon": "bullhorn",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}

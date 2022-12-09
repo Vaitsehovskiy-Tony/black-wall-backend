@@ -1,0 +1,51 @@
+{
+  "kind": "collectionType",
+  "collectionName": "prices_pages",
+  "info": {
+    "singularName": "prices-page",
+    "pluralName": "prices-pages",
+    "displayName": "Prices page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "pageTitle": {
+      "type": "component",
+      "repeatable": false,
+      "component": "element.page-title",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "priceCard": {
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "element.price-card"
+    },
+    "priceDetails": {
+      "displayName": "Price Details",
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "element.price-details"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_element_portfolio_items",
+  "info": {
+    "displayName": "Portfolio item",
+    "icon": "object-group",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Picture": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    }
+  }
+}

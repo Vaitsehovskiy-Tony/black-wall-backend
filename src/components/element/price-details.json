@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_element_price_details",
+  "info": {
+    "displayName": "Price Details"
+  },
+  "options": {},
+  "attributes": {
+    "option": {
+      "type": "string"
+    },
+    "pack1": {
+      "type": "boolean"
+    },
+    "pack2": {
+      "type": "boolean"
+    },
+    "pack4": {
+      "type": "boolean"
+    },
+    "pack3": {
+      "type": "boolean"
+    }
+  }
+}

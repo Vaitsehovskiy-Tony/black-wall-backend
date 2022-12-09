@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_block_about_projects",
+  "info": {
+    "displayName": "About project",
+    "icon": "glasses",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "projectDetails": {
+      "displayName": "Project details",
+      "type": "component",
+      "repeatable": true,
+      "component": "element.project-details"
+    },
+    "goToButton": {
+      "type": "string"
+    }
+  }
+}

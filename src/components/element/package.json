@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_element_packages",
+  "info": {
+    "displayName": "Package",
+    "icon": "equals"
+  },
+  "options": {},
+  "attributes": {
+    "PackageName": {
+      "type": "string"
+    },
+    "IsIncluded": {
+      "type": "boolean"
+    }
+  }
+}

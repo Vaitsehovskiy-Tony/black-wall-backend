@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_element_project_details",
+  "info": {
+    "displayName": "Project details",
+    "icon": "asterisk",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "topic": {
+      "type": "string"
+    },
+    "details": {
+      "type": "string"
+    }
+  }
+}

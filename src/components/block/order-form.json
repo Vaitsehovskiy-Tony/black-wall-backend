@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_block_order_forms",
+  "info": {
+    "displayName": "Order Form",
+    "icon": "envelope-open-text",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "text"
+    },
+    "formData": {
+      "type": "json"
+    }
+  }
+}

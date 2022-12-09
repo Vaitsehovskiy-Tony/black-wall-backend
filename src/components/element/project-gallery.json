@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_element_project_galleries",
+  "info": {
+    "displayName": "Project gallery",
+    "icon": "atlas"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "gallery": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

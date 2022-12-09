@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_element_titles",
+  "info": {
+    "displayName": "title",
+    "icon": "underline"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "text"
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "name": "black-wall-backend",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "dependencies": {
+    "@_sh/strapi-plugin-ckeditor": "^1.1.2",
+    "@strapi/plugin-graphql": "^4.4.5",
+    "@strapi/plugin-i18n": "^4.4.5",
+    "@strapi/plugin-users-permissions": "4.4.5",
+    "@strapi/strapi": "4.4.5",
+    "better-sqlite3": "7.4.6"
+  },
+  "author": "A Strapi developer",
+  "strapi": {
+    "uuid": "6304af16-06b6-4ed2-8407-fa5a28aa79cb"
+  },
+  "engines": {
+    "node": ">=14.19.1 <=18.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vaitsehovskiy-Tony/black-wall-backend.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Vaitsehovskiy-Tony/black-wall-backend/issues"
+  },
+  "homepage": "https://github.com/Vaitsehovskiy-Tony/black-wall-backend#readme"
+}

@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_element_paragraphs",
+  "info": {
+    "displayName": "Text Block",
+    "icon": "ad",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "richtext"
+    }
+  }
+}

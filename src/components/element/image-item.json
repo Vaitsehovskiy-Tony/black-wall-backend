@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_element_image_items",
+  "info": {
+    "displayName": "Image item",
+    "icon": "chalkboard-teacher"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "description": {
+      "type": "string"
+    }
+  }
+}

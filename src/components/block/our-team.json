@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_block_our_teams",
+  "info": {
+    "displayName": "Our Team",
+    "icon": "restroom",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "teamPhoto": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

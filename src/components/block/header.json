@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_block_headers",
+  "info": {
+    "displayName": "header",
+    "description": "",
+    "icon": "signal"
+  },
+  "options": {},
+  "attributes": {
+    "navbar": {
+      "displayName": "navbar",
+      "type": "component",
+      "repeatable": true,
+      "component": "element.navbar"
+    },
+    "orderProject": {
+      "type": "string"
+    }
+  }
+}

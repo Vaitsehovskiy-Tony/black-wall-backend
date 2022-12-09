@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_element_page_titles",
+  "info": {
+    "displayName": "Page Title",
+    "icon": "align-justify",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    }
+  }
+}

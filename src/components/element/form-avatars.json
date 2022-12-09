@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_element_form_avatars",
+  "info": {
+    "displayName": "formAvatars",
+    "icon": "address-book"
+  },
+  "options": {},
+  "attributes": {
+    "avatar": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "kind": "singleType",
+  "collectionName": "order_forms",
+  "info": {
+    "singularName": "order-form",
+    "pluralName": "order-forms",
+    "displayName": "Order Form",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "subtitle": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "formAvatars": {
+      "displayName": "formAvatars",
+      "type": "component",
+      "repeatable": true,
+      "component": "element.form-avatars",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "formData": {
+      "type": "json",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    }
+  }
+}

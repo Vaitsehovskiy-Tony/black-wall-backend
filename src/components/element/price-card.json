@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_element_price_cards",
+  "info": {
+    "displayName": "Price Card",
+    "icon": "yen-sign",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "price": {
+      "type": "string"
+    },
+    "button": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "priceOption": {
+      "displayName": "Price Options",
+      "type": "component",
+      "repeatable": true,
+      "component": "element.price-options"
+    },
+    "priceSymbols": {
+      "type": "string"
+    }
+  }
+}

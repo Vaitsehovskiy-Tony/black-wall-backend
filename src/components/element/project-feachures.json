@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_element_project_feachures",
+  "info": {
+    "displayName": "Project feachures",
+    "icon": "angle-down"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "text": {
+      "type": "richtext"
+    }
+  }
+}

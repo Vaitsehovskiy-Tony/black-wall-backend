@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_block_instagrams",
+  "info": {
+    "displayName": "Instagram",
+    "icon": "camera-retro",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}

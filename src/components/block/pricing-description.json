@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_block_pricing_descriptions",
+  "info": {
+    "displayName": "Pricing Description",
+    "icon": "sitemap"
+  },
+  "options": {},
+  "attributes": {
+    "Option": {
+      "type": "string"
+    },
+    "Package": {
+      "displayName": "Package",
+      "type": "component",
+      "repeatable": true,
+      "component": "element.package"
+    }
+  }
+}
