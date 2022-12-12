@@ -1,3 +1,5 @@
+const http = require("http");
+
 module.exports = ({ env }) => ({
   host: env('HOST', 'http://188.120.234.3/'),
   port: env.int('PORT', 1337),
