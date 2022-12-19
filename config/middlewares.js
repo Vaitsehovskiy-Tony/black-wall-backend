@@ -6,19 +6,21 @@ module.exports = [
     name: 'strapi::cors',
     config: {
       enabled: true,
-      // headers: '*',
+      headers: '*',
       // todo - comment this
       origin: [
-        'http://vaitstony.art:1337',
         'https://vaitstony.art:1337',
-        'http://vaitstony.art:1337/admin',
         'https://vaitstony.art:1337/admin',
+        'https://vaitstony.art/',
+        'https://www.vaitstony.art/',
+        'https://vaitstony.art/:1337',
+        'https://www.vaitstony.art/:1337',
+        'http://vaitstony.art:1337',
+        'http://vaitstony.art:1337/admin',
         'http://localhost:1337',
         'http://localhost:3000/',
         'http://vaitstony.art/',
-        'https://vaitstony.art/',
         'http://www.vaitstony.art/',
-        'https://www.vaitstony.art/',
       ]
     }
   },

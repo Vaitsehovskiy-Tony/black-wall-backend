@@ -5,6 +5,6 @@ module.exports = ({ env }) => ({
     app: {
     keys: env.array("APP_KEYS", ["testKey1", "testKey2"]),
   },
-  // url: 'https://vaitstony.art/',
+  url: 'https://vaitstony.art/',
   proxy: true,
 });
