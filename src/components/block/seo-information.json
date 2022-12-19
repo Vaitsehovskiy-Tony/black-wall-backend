@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_block_seo_informations",
+  "info": {
+    "displayName": "Seo Information",
+    "icon": "eye-slash"
+  },
+  "options": {},
+  "attributes": {
+    "seoTitle": {
+      "type": "string"
+    },
+    "seoDescription": {
+      "type": "text"
+    }
+  }
+}

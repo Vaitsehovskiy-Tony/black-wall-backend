@@ -31,6 +31,17 @@
           "localized": true
         }
       }
+    },
+    "seoInformation": {
+      "displayName": "Seo Information",
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "block.seo-information"
     }
   }
 }

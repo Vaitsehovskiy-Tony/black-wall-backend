@@ -6,8 +6,16 @@ module.exports = [
     name: 'strapi::cors',
     config: {
       enabled: true,
-      headers: '*',
-      origin: ['http://localhost:1337', 'http://localhost:3000']
+      // headers: '*',
+      // todo - comment this
+      origin: [
+        'http://localhost:1337',
+        'http://localhost:3000/',
+        'http://vaitstony.art/',
+        'https://vaitstony.art/',
+        'http://www.vaitstony.art/',
+        'https://www.vaitstony.art/',
+      ]
     }
   },
   'strapi::logger',
