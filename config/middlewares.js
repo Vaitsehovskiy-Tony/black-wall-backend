@@ -8,20 +8,20 @@ module.exports = [
       enabled: true,
       headers: '*',
       // todo - comment this
-      origin: [
-        'https://vaitstony.art:1337',
-        'https://vaitstony.art:1337/admin',
-        'https://vaitstony.art/',
-        'https://www.vaitstony.art/',
-        'https://vaitstony.art/:1337',
-        'https://www.vaitstony.art/:1337',
-        'http://vaitstony.art:1337',
-        'http://vaitstony.art:1337/admin',
-        'http://localhost:1337',
-        'http://localhost:3000/',
-        'http://vaitstony.art/',
-        'http://www.vaitstony.art/',
-      ]
+      // origin: [
+      //   'https://vaitstony.art:1337',
+      //   'https://vaitstony.art:1337/admin',
+      //   'https://vaitstony.art/',
+      //   'https://www.vaitstony.art/',
+      //   'https://vaitstony.art/:1337',
+      //   'https://www.vaitstony.art/:1337',
+      //   'http://vaitstony.art:1337',
+      //   'http://vaitstony.art:1337/admin',
+      //   'http://localhost:1337',
+      //   'http://localhost:3000/',
+      //   'http://vaitstony.art/',
+      //   'http://www.vaitstony.art/',
+      // ]
     }
   },
   'strapi::logger',
