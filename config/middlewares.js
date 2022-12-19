@@ -9,6 +9,10 @@ module.exports = [
       // headers: '*',
       // todo - comment this
       origin: [
+        'http://vaitstony.art:1337',
+        'https://vaitstony.art:1337',
+        'http://vaitstony.art:1337/admin',
+        'https://vaitstony.art:1337/admin',
         'http://localhost:1337',
         'http://localhost:3000/',
         'http://vaitstony.art/',
