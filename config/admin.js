@@ -5,5 +5,5 @@ module.exports = ({ env }) => ({
   apiToken: {
     salt: env('API_TOKEN_SALT', '4GbZ2IWZZjqLDGtZ'),
   },
-  url: 'https://vaitstony.art',
+  url: 'https://vaitstony.art/dashboard',
 });
