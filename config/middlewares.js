@@ -6,9 +6,9 @@ module.exports = [
     name: 'strapi::cors',
     config: {
       enabled: true,
-      headers: '*',
+      // headers: '*',
       // todo - comment this
-      // origin: [
+      origin: [
       //   'https://vaitstony.art:1337',
       //   'https://vaitstony.art:1337/admin',
       //   'https://vaitstony.art/',
@@ -18,10 +18,10 @@ module.exports = [
       //   'http://vaitstony.art:1337',
       //   'http://vaitstony.art:1337/admin',
       //   'http://localhost:1337',
-      //   'http://localhost:3000/',
+        'https://localhost:3000/'
       //   'http://vaitstony.art/',
       //   'http://www.vaitstony.art/',
-      // ]
+      ]
     }
   },
   'strapi::logger',
