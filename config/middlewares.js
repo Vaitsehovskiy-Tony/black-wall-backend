@@ -18,7 +18,7 @@ module.exports = [
       //   'http://vaitstony.art:1337',
       //   'http://vaitstony.art:1337/admin',
       //   'http://localhost:1337',
-        'https://localhost:3000/'
+        'http://localhost:3000/'
       //   'http://vaitstony.art/',
       //   'http://www.vaitstony.art/',
       ]
